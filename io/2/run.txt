@@ -1,0 +1,19 @@
+flex filename.l
+gcc -o filename lex.yy.cc
+./filename
+
+Or
+lex filename.l
+gcc lex.yy.c -lfl -o lexer
+./lexer
+
+
+
+yacc
+
+bison -d filename.y
+flex filename.l
+gcc -o filename filename.tab.c lex.yy.cc 
+./filename
+
+

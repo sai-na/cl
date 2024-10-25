@@ -1,0 +1,8 @@
+Enter the expression: a+b=c;
+Invalid expression.
+Enter the expression: a=b+c;
+Valid expression.
+Enter the expression: a+b=c+d;
+Invalid expression.
+Enter the expression: a=b*c+d/e;
+Valid expression.

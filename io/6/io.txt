@@ -1,0 +1,10 @@
+Enter identifier: hello
+Valid identifier.
+Enter identifier: 1erwq
+Invalid identifier.
+Enter identifier: @qwrty123
+Invalid identifier.
+Enter identifier: compiler@123
+Invalid identifier.
+Enter identifier: compiler123
+Valid identifier.

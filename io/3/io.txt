@@ -1,0 +1,7 @@
+hello
+How are you?
+I am fine
+Ok bye
+4 lines.
+9 words.
+27 characters

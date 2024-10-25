@@ -1,0 +1,26 @@
+#include<stdio.h> is a preprocessor directive
+#include<conto.h> is a preprocessor directive
+void is a keyword
+FUNCTION
+main(
+)
+BLOCK BEGINS
+int is a keyword
+a IDENTIFIER,
+b IDENTIFIER,
+C IDENTIFIER;
+a IDENTIFIER
+= is an ASSIGNMENT OPERATOR
+1 is a NUMBER;
+b IDENTIFIER
+= is an ASSIGNMENT OPERATOR
+2 is a NUMBER ;
+C IDENTIFIER
+= ts an ASSIGNMENT OPERATOR
+a IDENTIFIER+ b IDENTIFIER;
+FUNCTION
+printf(
+"Sum: %d" is a STRING,
+C IDENTIFIER
+)
+BLOCK ENDS

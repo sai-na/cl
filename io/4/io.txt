@@ -1,0 +1,2 @@
+#include<stdio.h>voidmain(){inta=10;intb=20;intx=a+b;if(x>10){printf("xislar
+gerthan10");}}
