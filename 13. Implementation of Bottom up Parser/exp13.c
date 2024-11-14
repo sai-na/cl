@@ -74,3 +74,7 @@ void check()
             i = i - 2;
         }
 }
+
+
+
+//id+id*id

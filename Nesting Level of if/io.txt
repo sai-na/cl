@@ -1,0 +1,39 @@
+
+Compile and Run:
+
+bash
+Copy code
+yacc -d nesting_detector.y
+lex nesting_detector.l
+gcc y.tab.c lex.yy.c -o nesting_detector -ll
+./nesting_detector < input.txt
+
+
+
+
+
+
+if (condition1) {
+    if (condition2) {
+        // Some code
+        if (condition3) {
+            // Nested code
+        }
+    }
+}
+if (condition4) {
+    // Another block
+}
+
+
+
+
+
+Expected Output:
+
+yaml
+Copy code
+Nesting level: 1
+Nesting level: 2
+Nesting level: 3
+Nesting level: 1

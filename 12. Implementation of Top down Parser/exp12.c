@@ -121,3 +121,8 @@ int F()
     else
         return (0);
 }
+
+
+
+//Enter the string to be checked: id+id*id
+//String is accepted

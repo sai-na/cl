@@ -1,0 +1,28 @@
+Compile and Run:
+
+bash
+Copy code
+yacc -d pattern_recognizer.y
+lex pattern_recognizer.l
+gcc y.tab.c lex.yy.c -o pattern_recognizer -ll
+./pattern_recognizer < input.txt
+
+
+
+
+
+Input (input.txt):
+
+Copy code
+aaaaaaaab
+aaaaaaaaaab
+aaaaaaaaaaab
+bbbbbb
+
+
+
+Expected Output:
+
+
+Pattern recognized: a^nb (n >= 10)
+Pattern recognized: a^nb (n >= 10)
