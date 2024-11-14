@@ -81,3 +81,12 @@ void fright(int x) {
                 x++;
         }
 }
+
+
+
+
+// OUTPUT
+//  Enter the Expression: a+b*c
+//  The intermediate code:
+//  t := b * c
+//  u := a + t

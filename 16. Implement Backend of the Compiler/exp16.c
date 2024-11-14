@@ -36,3 +36,28 @@ void main() {
         
         printf("\n");
 }
+
+
+
+
+// Enter the set of intermediate code(terminated by 
+// exit):
+//  x=a+b
+//  y=x-c
+//  z=y*d
+//  p=z/e
+//  exit
+//  Target code generation
+//  *****************************
+//  Mov a , R0
+//  ADD b,R0
+//  Mov R0,x
+//  Mov x , R1
+//  SUB c,R1
+//  Mov R1,y
+//  Mov y , R2
+//  MUL d,R2
+//  Mov R2,z
+//  Mov z , R3
+//  DIV e,R3
+//  Mov R3,p

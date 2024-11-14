@@ -87,3 +87,38 @@ void change(int p, char * res) {
                         strcpy(arr[i].op2, res);
         }
 }
+
+
+
+//  OUTPUT
+//  Enter the number of values: 5
+//  left: a
+//  right: id
+//  left: b
+//  right: id+1
+//  left: c
+//  right: a+b
+//  left: d
+//  right: c
+//  left: e
+//  right: id+2
+//  Intermediate code: 
+// a= id
+//  b= id+1
+//  c= a+b
+//  d= c
+//  e= id+2
+//  After dead code elimination: 
+// a=id
+//  b=id+1
+//  c=a+b
+//  d=c
+//  d=c
+//  d=c
+//  e=id+2
+//  Optimised code
+//  a=id
+//  b=id+1
+//  c=a+b
+//  d=c
+//  e=id+2
